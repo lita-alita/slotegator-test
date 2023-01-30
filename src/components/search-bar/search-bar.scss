@@ -1,0 +1,27 @@
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: calc(100% - 14px);
+    padding: 7px 10px 7px 18px;
+    gap: 10px;
+    isolation: isolate;
+
+    /* Base colors/white */
+    background: #FFFFFF;
+    border: 1px solid rgba(22, 16, 62, 0.3);
+    border-radius: 10px;
+
+    input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}

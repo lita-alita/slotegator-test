@@ -1,0 +1,35 @@
+.search-module {
+    width: 318px;
+    height: 513px;
+    margin: 5rem auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: start;
+    gap: 0.5rem;
+    padding: 0.9rem;
+
+    /* Base colors/white */
+    background: #FFFFFF;
+
+    /* a-card-shad-greyBG */
+    box-shadow: 0px 1px 5px rgba(0, 26, 66, 0.15);
+    border-radius: 16px;
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        gap: 5px;
+
+        height: 42px;
+
+        .closeButton {
+            border: none;
+            background-color: transparent;
+            cursor: pointer
+        }
+    }
+}
